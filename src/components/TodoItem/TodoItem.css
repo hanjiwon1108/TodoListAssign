@@ -1,0 +1,46 @@
+.TodoItem {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+  margin-bottom: 2px;
+}
+
+.TodoItem:hover {
+  background-color: #f1f1f1;
+}
+
+.TodoItem input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.TodoItem p {
+  flex: 1;
+  margin: 0;
+  font-size: 16px;
+  color: dimgray;
+}
+
+.TodoItem p.date {
+  margin: 0 10px;
+  color: dimgray;
+  font-size: 14px;
+}
+
+.TodoItem button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.TodoItem button:hover {
+  background-color: darkred;
+}
