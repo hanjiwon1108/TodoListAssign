@@ -1,0 +1,30 @@
+.List {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.List > input {
+  border: none;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  background-color: white;
+  padding: 12px;
+  color: dimgray;
+  border-radius: 4px;
+}
+
+.List > input:focus {
+  outline: none;
+  border-bottom: 1px solid rgb(37, 147, 255);
+}
+
+.List .todos_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.List h4 {
+  color: black;
+}
