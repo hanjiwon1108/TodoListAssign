@@ -18,7 +18,7 @@ function TodoItem({
   return (
     <div className="TodoItem">
       <input type="checkbox" checked={isDone} onChange={onUpdate} />
-      <p>{content}</p>
+      <span>{content}</span>
       <p className="date">{new Date(date).toLocaleDateString()}</p>
       <button onClick={onDelete}>삭제</button>
     </div>
